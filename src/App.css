@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.one{
+  gap:300px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  background-color: grey ;
+  color: white;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-right:3px;
+  font-family: Arial, sans-serif;
+
+
+}
+.two{
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  gap:1000px;
+  color: white;
+  padding-left:2px;
+  height:60px;
+  padding-right: 2px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+
+}
+.three{
+color:black;
+font-family: Arial, sans-serif;
+
+}
+.four{
+  display: flex;
+  flex-direction: column;
+  align-items:left;
+  justify-content: left;
+  text-decoration: none;
+  gap:20px;
+background-color: #282c34;
+width: 300px;
+text-align: center;
+padding-top: 30px;
+font-family: Arial, sans-serif;
+
+}
+.five{
+  text-decoration: none;
+  color: rgb(247, 242, 242);
+  font-family: Arial, sans-serif;
+
+
+}
+
+.moocs-container {
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 100vh; /* Full height of the viewport */
+  text-align: center; /* Center text */
+  font-family: Arial, sans-serif;
+
+}
+.jayathi{
+  padding-left: 480px;
+  font-size: medium;
+  font-style: italic;
+  color: black;
+   align-items: center;
+ justify-content: center;
+ height:80%;
+  text-align: center;
+color: rgb(211, 84, 75);
+  border-radius: 20px;
+  font-size: larger;
+  font-style: italic;
+  padding-top: 20px;
+}
+
+.jayathi h3{
+  display: flex;
+flex-direction: row;
+}
+table,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  height:20px;
+  width:40%;
+}
+th{
+  color: rgb(85, 74, 235);
+} 
+
+.s{
+  padding-top: 20px;
+  box-shadow: #282c34;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding-left: 50px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+border-radius: 50px;
+background-color: lightgreen;
+font-size: larger;
+padding: 20px;
+}
