@@ -24,6 +24,7 @@ const NavBar = () => {
         setAnchorEl(event.currentTarget);
         setMenuOpen(true);
     };
+    
 
   return (
     
@@ -59,6 +60,10 @@ const NavBar = () => {
 <ListItem button component={Link} to="/Profile" onClick={handleMenuClose}>
   <ListItemText primary="Profile" />
 </ListItem>
+<ListItem button component={Link} to="/Faculty" onClick={handleMenuClose}>
+  <ListItemText primary="Faculty" />
+</ListItem>
+
 
             
            

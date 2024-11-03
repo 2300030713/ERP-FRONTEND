@@ -8,6 +8,7 @@ import Feedback from './Components/Feedback';
 import Profile from './Components/Profile';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+import Footer from './Components/Footer';
 
 import NavBar from './Components/NavBar';
 function App() {
@@ -21,9 +22,11 @@ function App() {
           <Route path="/Profile" element={<Profile/>} />
           <Route path="/TimeTable" element={<TimeTable/>} />
           <Route path="/AttendenceRegister" element={<AttendenceRegister/>} />
-
         </Routes>
+
       </div>
+      <Footer/>
+
     </Router>
 
   );
